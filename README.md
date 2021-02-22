@@ -21,9 +21,6 @@
 
 ```javascript
 import ArabicDateConverter from "arabic-date";
-```
-
-```js
 
 ```
 
