@@ -2,7 +2,7 @@
 module.exports = [
   {
     conventions: "اليوم",
-    day: "today",
+    time: "today",
   },
   {
     conventions: "البارحة",
