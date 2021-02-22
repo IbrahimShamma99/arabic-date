@@ -1,5 +1,7 @@
 {
   "name": "arabic-date",
+  "author": "ibrahim abushammah",
+  "license": "ISC",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -19,8 +21,6 @@
     "arabic",
     "nlp"
   ],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/IbrahimShamma99/arabic-date/issues"
   },
