@@ -20,7 +20,12 @@
 ## Usage
 
 ```javascript
-import ArabicDateConverter from "arabic-date";
+import ArabicDateConverter from 'arabic-date';
+
+console.log("today's date", ArabicDateConverter('اليوم'));
+console.log("yesterday's date", ArabicDateConverter('امبارح'));
+console.log("tomorrow's date", ArabicDateConverter('بكرا'));
+console.log("next month from now's date", ArabicDateConverter('الشهر الجاي'));
 
 ```
 
