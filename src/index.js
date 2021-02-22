@@ -4,16 +4,23 @@ const data = require("./conventions");
 const conventions = data.map((a) => a.conventions);
 const times = data.map((a) => a.time);
 
-const getDay = (dayIndex) => {
+const getDayDate = (dayIndex, monthIndex, yearIndex) => {
   //NOTE index is 0 when today -1 yesterday and 1 tomorrow
-  const todayDate = new Date().toISOString().split("T")[0];
-  switch (dayIndex) {
-    case 0:
-      return todayDate;
-  }
+  var today = new Date();
+  var date =
+    today.getDate() +
+    dayIndex +
+    "/" +
+    (today.getMonth() + 1 + monthIndex) +
+    "/" +
+    today.getFullYear() +
+    yearIndex;
+  return date;
 };
 
-console.log(getDay(0));
+console.log("today", getDayDate(0, 0, 0));
+console.log("tomorrow", getDayDate(1, 0, 0));
+console.log("yesterday", getDayDate(-1, 0, 0));
 
 const converter = (arabic_text) => {
   //SECTION Common simple cases
@@ -30,7 +37,5 @@ const converter = (arabic_text) => {
     );
   }
 };
-
-console.log("not available", converter("اليوم"));
 
 // export default converter;

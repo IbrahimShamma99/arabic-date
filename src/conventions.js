@@ -2,18 +2,26 @@
 module.exports = [
   {
     conventions: "اليوم",
-    time: "today",
+    day: 0,
+    month: 0,
+    year: 0,
   },
   {
     conventions: "البارحة",
-    time: "yesterday",
+    day: -1,
+    month: 0,
+    year: 0,
   },
   {
     conventions: "مبارح",
-    time: "yesterday",
+    day: -1,
+    month: 0,
+    year: 0,
   },
   {
     conventions: "امبارح",
-    time: "yesterday",
+    day: -1,
+    month: 0,
+    year: 0,
   },
 ];
