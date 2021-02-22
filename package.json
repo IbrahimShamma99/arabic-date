@@ -1,0 +1,20 @@
+{
+  "name": "arabic-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimShamma99/arabic-date.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IbrahimShamma99/arabic-date/issues"
+  },
+  "homepage": "https://github.com/IbrahimShamma99/arabic-date#readme"
+}
