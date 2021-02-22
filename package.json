@@ -2,15 +2,23 @@
   "name": "arabic-date",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IbrahimShamma99/arabic-date.git"
   },
-  "keywords": [],
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "date",
+    "arabic",
+    "nlp"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
