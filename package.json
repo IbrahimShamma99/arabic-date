@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/IbrahimShamma99/arabic-date/issues"
   },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@rollup/plugin-babel": "^5.1.0"
+  },
   "homepage": "https://github.com/IbrahimShamma99/arabic-date#readme"
 }
