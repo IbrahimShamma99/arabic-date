@@ -60,4 +60,17 @@ export default [
     month: -1,
     year: 0,
   },
+  {
+    conventions: "السنة المقبلة",
+    day: 0,
+    month: -1,
+    year: 0,
+  },
+  {
+    conventions: "السنة الماضية",
+    day: 0,
+    month: -1,
+    year: 0,
+  },
+
 ];
