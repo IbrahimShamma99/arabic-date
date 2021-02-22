@@ -22,7 +22,7 @@ For more informatiom about the future of redux-logger, check out the [discussion
 ## Usage
 
 ```javascript
-import converter from "arabic-date";
+import ArabicDateConverter from "arabic-date";
 ```
 
 ```js
