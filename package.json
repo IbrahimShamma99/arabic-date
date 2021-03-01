@@ -6,7 +6,7 @@
   "description": "",
   "deprecated": false,
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "types/index.d.ts",
   "scripts": {
     "build": "npm run clean && rollup -c",
     "clean": "rm -rf ./dist",
@@ -32,12 +32,5 @@
     "@babel/preset-env": "^7.11.0",
     "@rollup/plugin-babel": "^5.1.0"
   },
-  "homepage": "https://github.com/IbrahimShamma99/arabic-date#readme",
-  "dependencies": {
-    "@rollup/plugin-commonjs": "^17.1.0",
-    "@rollup/plugin-node-resolve": "^11.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-typescript2": "^0.30.0",
-    "typescript": "^4.2.2"
-  }
+  "homepage": "https://github.com/IbrahimShamma99/arabic-date#readme"
 }

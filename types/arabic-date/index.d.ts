@@ -1,8 +1,9 @@
 import data from "./conventions";
 import getDate from "./utils";
-const conventions = data.map((a) => a.conventions);
+const conventions: any = data.map((a) => a.conventions);
 
-const ArabicDateConverter = (arabic_text: string) => {
+
+ArabicDateConverter = (arabic_text) => {
   //SECTION Common simple cases
   const word_index = conventions.indexOf(arabic_text);
   if (word_index !== -1) {
@@ -15,4 +16,5 @@ const ArabicDateConverter = (arabic_text: string) => {
   }
 };
 
-export default ArabicDateConverter;
+
+export default ArabicDateConverter
