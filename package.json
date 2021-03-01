@@ -2,11 +2,11 @@
   "name": "arabic-date",
   "author": "ibrahim abushammah",
   "license": "ISC",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "deprecated": false,
   "main": "dist/index.js",
-  "types": "dist/types.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run clean && rollup -c",
     "clean": "rm -rf ./dist",
