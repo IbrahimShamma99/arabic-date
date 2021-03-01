@@ -5,9 +5,10 @@
   "version": "0.0.4",
   "description": "",
   "main": "dist/index.js",
-  "types": "dist/index.ts",
+  "types": "dist/types.ts",
   "scripts": {
-    "build": "rollup -c",
+    "build": "npm run clean && rollup -c",
+    "clean": "rm -rf ./dist",
     "prepublish": "npm run build"
   },
   "repository": {
