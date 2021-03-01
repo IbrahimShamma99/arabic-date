@@ -2,8 +2,9 @@
   "name": "arabic-date",
   "author": "ibrahim abushammah",
   "license": "ISC",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
+  "deprecated": false,
   "main": "dist/index.js",
   "types": "dist/types.ts",
   "scripts": {
