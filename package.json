@@ -2,7 +2,7 @@
   "name": "arabic-date",
   "author": "ibrahim abushammah",
   "license": "ISC",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "deprecated": false,
   "main": "dist/index.js",
